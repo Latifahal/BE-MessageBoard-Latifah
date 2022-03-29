@@ -18,7 +18,7 @@ function App() {
 
   useEffect(() =>{
 
-    const url = "http://localhost:4000/messages"
+    const url = "https://be-example-messageboard.herokuapp.com//messages"
     const config = {
       headers: {
         "Authorization": password
